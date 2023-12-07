@@ -1,0 +1,23 @@
+.nav {
+    background-color: #fff;
+}
+
+.nav-inner{    
+    max-width: 1200px;
+    background-color: pink;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.btn-container {
+    display: flex;
+}
+
