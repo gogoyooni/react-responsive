@@ -1,14 +1,19 @@
 .nav {
     background-color: #fff;
+    padding: 10px 15px
 }
 
 .nav-inner{    
     max-width: 1200px;
-    background-color: pink;
+    // background-color: pink;
     display: flex;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+}
+.search-link {
+    font-size: 20px;
+    color:#4d576d!important;
 }
 
 .link-container {
@@ -18,6 +23,37 @@
 
 }
 .btn-container {
+    margin-left: 15px;
     display: flex;
 }
 
+.mobile-menu-btn{
+    display: none;
+    width: 40px;
+
+    box-sizing: border-box;
+}
+.mobile-menu-icon{
+    width: 100%;
+    height: 100%;
+}
+.join-btn:hover {
+    background-color: #3e61b7;
+    border: 1px solid #3e61b7;
+    color: #fff
+}
+
+
+@media (max-width: 764px) {
+    // Styles for viewports narrower than 400 pixels.
+  
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    .link-container{
+        display: none;
+    }
+  
+    
+  }

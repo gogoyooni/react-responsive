@@ -14,14 +14,17 @@ const Nav = () => {
       <div className="nav-inner">
         <Logo />
         <div className="link-container">
-          <Link to="/search">Search</Link>
+          <Link className="search-link" to="/search">Search</Link>
           <div className="btn-container">
-            <Button size="large" outline>
+            <Button size="medium" rounded transparent outline>
               SIGN IN
             </Button>
-            <Button color="blue">JOIN</Button>
+            <Button size="medium" rounded color="blue">JOIN</Button>
           </div>
         </div>
+        <span className="mobile-menu-btn">
+            <MdMenu className="mobile-menu-icon"/>
+        </span>
       </div>
     </nav>
   );
